@@ -53,10 +53,10 @@ p{
 .section{
     height: 100vh;
     padding: 40px 6%;
-    background-color: #ffffff73;
+    background-color: #00000073;
     backdrop-filter: blur(14px);
     position: relative;
-    color: #280421;
+    color: #ffc000;
     scroll-snap-align: start;
 }
 
