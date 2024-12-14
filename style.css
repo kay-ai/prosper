@@ -47,17 +47,81 @@ body{
 
 p{
     margin-bottom: 0;
-    font-size: 20px;
+    font-size: 15px;
+}
+
+.modal-header{
+    padding: 5px 10px !important;
+    border-bottom: unset !important;
+}
+
+.modal-content{
+    backdrop-filter: blur(40px) !important;
+    background-color: #11121373 !important;
+    color: #fff !important;
+}
+
+.modal-content .heading{
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffc000;
+}
+
+.modal-content .content{
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.modal-content .donate-btn{
+    background-color: #ffc000;
+    padding: 5px 15px;
+    color: black;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.bottom-nav{
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    border-top: 2px solid #ffc000bd;
+    background-color: #0000007d;
+    backdrop-filter: blur(14px);
+    position: absolute;
+    bottom: 0;
+    z-index: 999;
+    padding: 0px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.bottom-nav .donate-btn{
+    background-color: #ffc000;
+    padding: 5px 15px;
+    color: black;
+    border-radius: 5px;
+    font-weight: 600;
 }
 
 .section{
     height: 100vh;
-    padding: 40px 6%;
+    padding: 30px 5%;
     background-color: #00000073;
     backdrop-filter: blur(14px);
     position: relative;
     color: #ffc000;
     scroll-snap-align: start;
+    width: 94%;
+    margin: auto;
 }
 
 .f-50{
@@ -110,7 +174,7 @@ p{
 }
 
 .program-order ol li{
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
 }
 
